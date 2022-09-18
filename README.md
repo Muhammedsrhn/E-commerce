@@ -11,7 +11,7 @@ you find this reposity below techonocys
 you should using 
 ## git clone https://github.com/Muhammedsrhn/E-commerce
 
-download this resposity
+download this reposity
 
 after that you should writing
 
