@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* else styles */
+
+.search-product {
+  padding: 5px;
+  margin: 5px;
+  width: 300px;
+  font-size: 22px;
+}
+
+
+.update-link {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.update-link:hover {
+  opacity: 0.5;
+}
+
+.invalid {
+  color: red;
+  display: block;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.product-list li {
+  color: white;
+  background-color: rgb(5, 67, 5);
+  display: inline-block;
+  border: 1px solid skyblue;
+  width: 150px;
+  padding: 5px;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  float: left;
+}
+
+.App {
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(37, 153, 198);
+  padding: 5px;
+}
+
+.inputBox {
+  display: block;
+  width: 300px;
+  padding: 5px;
+  margin: 20px;
+}
+
+.rg-title,
+.register,
+.login,
+.add-product,
+.update-product {
+  margin-left: 30%;
+}
+
+
+/*  */
+
+/* ul li styless*/
+
+
+
+
+
+.nav-ul {
+  margin: 0;
+  padding: 5px 0;
+}
+
+
+.nav-header {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: skyblue;
+}
+
+.nav-ul li {
+  display: inline-block;
+  padding: 5px;
+  background-color: skyblue;
+}
+
+.nav-ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.nav-ul li a:hover {
+  color: #282c34;
+}
+
+
+@media only screen and (max-width:600px) {
+  .nav-ul li {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+
+  }
+}
+
+
+
+.nav-ul li:hover {
+  opacity: 0.8;
+}
+
+
+
+/* */
+
+/* btn styless */
+
+.btnProduct {
+  margin: 20px;
+  width: 150px;
+  padding: 10px;
+  background-color: rgb(253, 8, 8);
+  border: 1px solid black;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btnProduct:hover {
+  opacity: 0.8;
+}
+
+
+.inputBtn {
+  margin: 20px;
+  width: 150px;
+  padding: 10px;
+  background-color: green;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.inputBtn:hover {
+  opacity: 0.8;
+}
+
+.del {
+  color: red;
+}
+
+.del:hover {
+  opacity: 0.6;
+}
+
+/*  */
