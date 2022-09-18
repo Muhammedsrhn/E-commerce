@@ -1,6 +1,6 @@
 # Welcome this reposity
 
-you find this reposity below techonocys
+you find this reposity below techonolocys
 
 * html
 * css
