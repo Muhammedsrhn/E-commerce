@@ -1,6 +1,6 @@
 # Welcome this reposity
 
-you find this reposity below technologies
+technologies used in this reposity 
 
 * html
 * css
